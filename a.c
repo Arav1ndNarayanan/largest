@@ -3,7 +3,8 @@
 int main()
 {
     int n,c;
-  printf("%d\a",n+c);
+    scanf("%d%d",&n,&c);
+  printf("%d",n>c?n:c);
 
     return 0;
 }
